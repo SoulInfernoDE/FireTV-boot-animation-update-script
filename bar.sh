@@ -2,16 +2,21 @@
 
 # die when an error occurs
 set -e
+
+echo "Mounting /system writeable!"
+mount -o rw /system
+echo "DONE!"
+
 export AFTV4KBAPMS="/system/media"
 export AFTV4KBAPMM="/data/adb/modules/aftv-4k/system/media"
 export BTAZIP="bootanimation.zip"
 read -r -p "
 ###############################################################
-#                                                             #
+# Bootanimation update script v0.1a @github.com/SoulInfernoDE #
+###############################################################
 # bootanimation.zip will be updated. Do you want to continue? #
 #                                                             #
 #   - Make sure zip is placed in /sdcard                      #
-#                                                             #
 ############################################################### 
 (y|Y)es (n|N)o # " input
 
