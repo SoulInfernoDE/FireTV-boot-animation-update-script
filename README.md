@@ -1,4 +1,4 @@
-# FireTV-boot-animation-update-script
+# FireTV-boot-animation-update-script (deprecated - not rooting any firetv anymore. So this is for reference of other projects here)
 
 Makes it easier to update bootanimation.zip from twrp recovery in terminal.
 
